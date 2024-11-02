@@ -22,6 +22,6 @@ public class BrowserUtil {
 	
 	public static void closeDriver() {
 		System.out.println("Cerrando Driver");
-		driver.close();
+		driver.quit();
 	}
 }
